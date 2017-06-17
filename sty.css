@@ -4,7 +4,7 @@ body
 }
 @keyframes example11 {
     from {}
-    to {transform: translate(150px,0px) rotate(90deg);}
+    to {transform: translate(150px,0px) rotate(360deg);}
 }
 @keyframes example {
    
@@ -17,6 +17,10 @@ body
     100%{background-image: url(ned.jpg);}
 }
 @keyframes example1 {
+    from {}
+    to {transform: rotateY(360deg);}
+}
+@keyframes example11 {
    
     
     0%{}
@@ -48,7 +52,7 @@ body
 	background-color: rgba(244,0,5,0.4);
 	padding: 7px;
 	animation-name: example1;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
