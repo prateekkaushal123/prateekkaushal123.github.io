@@ -1,0 +1,328 @@
+body
+{
+	background-image: url(back3.jpg);
+}
+@keyframes example11 {
+    from {}
+    to {transform: translate(150px,0px) rotate(90deg);}
+}
+@keyframes example {
+   
+    
+    0%{background-image: url(ned.jpg);}
+    20%{background-image: url(dan.jpg);}
+    40%{background-image: url(jon.jpg);}
+    60%{background-image: url(ty.jpg);}
+    80%{background-image: url(rob.jpg);}
+    100%{background-image: url(ned.jpg);}
+}
+@keyframes example1 {
+   
+    
+    0%{}
+    25%{transform: translate(150px,0px) rotate(90deg);}
+    50%{transform: translate(-150px,0px) rotate(-90deg);}
+    75%{transform: translate(-150px,0px) rotate(-90deg);}
+    100%{transform: translate(150px,0px) rotate(90deg);}
+}
+.m1
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 360px;
+	height: 200px;
+	animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}
+.gm
+{
+	position: absolute;
+	top: 50px;
+	left: 600px;
+	font-style: italic;
+	color: white;
+	font-size: 150%;
+	background-color: rgba(244,0,5,0.4);
+	padding: 7px;
+	animation-name: example1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.header
+{
+	background-color: rgba(0,255,255,0.3);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 200px;
+
+	width: 100%;
+}
+
+p
+{
+	background-color: rgba(255,0,0,0.25);
+	width: 200px;
+	height: 100px;
+	
+	color: green;
+	font-weight: bold;
+	font-size: 150%;
+	
+}
+#sc
+{
+	position: absolute;
+	top: 2px;
+	left: 1200px;
+	width: 140px;
+	height: 50px;
+	color: red;
+	font-weight: bold;
+	font-size: 150%;
+	background-color: rgba(0,255,255,1);
+	box-shadow: 10px 10px grey;
+	 border-radius: 12px;
+
+}
+#st
+{
+	position: absolute;
+	top: 82px;
+	left: 1200px;
+	width: 140px;
+	height: 50px;
+	color: red;
+	font-weight: bold;
+	font-size: 150%;
+	background-color: rgba(0,255,255,1);
+	box-shadow: 10px 10px grey;
+	 border-radius: 12px;
+
+}
+
+#p1
+{
+	position: absolute;
+	top: 230px;
+	left: 50px;
+}
+
+#p2
+{
+	position: absolute;
+	top: 230px;
+	left: 320px;
+}
+
+#p3
+{
+	position: absolute;
+	top: 230px;
+	left: 590px;
+}
+
+#p4
+{
+	position: absolute;
+	top: 230px;
+	left: 860px;
+}
+
+#p5
+{
+	position: absolute;
+	top: 230px;
+	left: 1130px;
+}
+
+#p6
+{
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+
+#p7
+{
+	position: absolute;
+	top: 400px;
+	left: 320px;
+}
+
+#p8
+{
+	position: absolute;
+	top: 400px;
+	left: 590px;
+}
+
+#p9
+{
+	position: absolute;
+	top: 400px;
+	left: 860px;
+}
+
+#p10
+{
+	position: absolute;
+	top: 400px;
+	left: 1130px;
+}
+#p11
+{
+	position: absolute;
+	top: 570px;
+	left: 50px;
+}
+#p12
+{
+	position: absolute;
+	top: 570px;
+	left: 320px;
+}
+#p13
+{
+	position: absolute;
+	top: 570px;
+	left: 590px;
+}
+#p14
+{
+	position: absolute;
+	top: 570px;
+	left: 860px;
+}
+#p15
+{
+	position: absolute;
+	top: 570px;
+	left: 1130px;
+}
+
+#i1
+{
+	position: absolute;
+	top: 233px;
+	left: 40px;
+}
+
+#i2
+{
+	position: absolute;
+	top: 233px;
+	left: 310px;
+}
+
+#i3
+{
+	position: absolute;
+	top: 233px;
+	left: 580px;
+}
+
+#i4
+{
+	position: absolute;
+	top: 233px;
+	left: 850px;
+}
+
+#i5
+{
+	position: absolute;
+	top: 233px;
+	left: 1120px;
+}
+
+#i6
+{
+	position: absolute;
+	top: 403px;
+	left: 40px;
+}
+
+#i7
+{
+	position: absolute;
+	top: 403px;
+	left: 310px;
+}
+
+#i8
+{
+	position: absolute;
+	top: 403px;
+	left: 580px;
+}
+
+#i9
+{
+	position: absolute;
+	top: 403px;
+	left: 850px;
+}
+
+#i10
+{
+	position: absolute;
+	top: 403px;
+	left: 1120px;
+}
+
+#i11
+{
+	position: absolute;
+	top: 573px;
+	left: 40px;
+}
+
+#i12
+{
+	position: absolute;
+	top: 573px;
+	left: 310px;
+}
+
+#i13
+{
+	position: absolute;
+	top: 573px;
+	left: 580px;
+}
+
+#i14
+{
+	position: absolute;
+	top: 573px;
+	left: 850px;
+}
+
+#i15
+{
+	position: absolute;
+	top: 573px;
+	left: 1120px;
+}
+
+.foot
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	color: black;
+	padding: 50px;
+	font-weight: bold;
+	font-size: 400%;
+background-color: rgba(0,255,255,0.3);
+}
+.pre
+{}
